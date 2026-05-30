@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Short launcher for the marketing skill CLI.
+#   ./mkt search "urgency cta"
+#   ./mkt brief "TaskFlow" "trial signups" "SMB founders"
+#   ./mkt domains
+exec python3 "$(dirname "$0")/.claude/skills/marketing/mkt.py" "$@"

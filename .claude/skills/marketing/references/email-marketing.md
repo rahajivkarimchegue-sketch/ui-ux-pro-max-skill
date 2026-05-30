@@ -4,7 +4,7 @@ Sequences, subject lines, newsletter structure, automation, and deliverability.
 
 ## Sequence Blueprints
 
-> Search full blueprints: `python3 scripts/search.py "<type>" --domain email`
+> Search full blueprints: `./mkt search "<type>" email`
 
 ### Welcome (3–5 emails)
 1. **Deliver + welcome** — confirm value, set expectations, quick win.

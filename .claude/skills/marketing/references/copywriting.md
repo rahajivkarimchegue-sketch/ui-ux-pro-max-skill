@@ -30,7 +30,7 @@ Persuasive copy frameworks, headline patterns, value propositions, and CTAs.
 ### PASTOR — Problem, Amplify, Story, Transformation, Offer, Response
 **Use:** Webinars, long sales letters
 
-> Full table of 20+ formulas: `python3 scripts/search.py "<need>" --domain copy`
+> Full table of 20+ formulas: `./mkt search "<need>" copy`
 
 ## Value Proposition Template
 

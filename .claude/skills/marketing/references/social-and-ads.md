@@ -4,7 +4,7 @@ Per-platform organic posts, hooks, and paid ad campaign structure.
 
 ## Platform Cheat Sheet
 
-> Specs/tone per channel: `python3 scripts/search.py "<platform>" --domain channel`
+> Specs/tone per channel: `./mkt search "<platform>" channel`
 
 | Platform | Best content | Tone | Hook window | Notes |
 |----------|--------------|------|-------------|-------|

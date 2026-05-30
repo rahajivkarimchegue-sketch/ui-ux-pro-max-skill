@@ -42,7 +42,7 @@ Blog strategy, keyword research, on-page SEO, and technical fundamentals.
 | Internal links | 2–5 to related pillar/cluster pages with descriptive anchors |
 | Schema | Article/FAQ/Product/Breadcrumb structured data |
 
-> Full list: `python3 scripts/search.py "<topic>" --domain seo`
+> Full list: `./mkt search "<topic>" seo`
 
 ## Meta Tag Templates
 

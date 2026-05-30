@@ -24,18 +24,20 @@ End-to-end marketing intelligence: copywriting, content & SEO, email, social & a
 
 ## Quick Start
 
-**Search the marketing knowledge base (formulas, channels, sequences, SEO):**
+**Easiest:** just type `/marketing` and say what you want in plain language
+("write 3 subject lines for a cart email", "plan a launch campaign for X").
+The skill runs everything below for you.
+
+**One command for the terminal — `mkt`** (run from the repo root):
 ```bash
-python3 .claude/skills/marketing/scripts/search.py "urgency cta" --domain copy
-python3 .claude/skills/marketing/scripts/search.py "welcome sequence" --domain email
-python3 .claude/skills/marketing/scripts/search.py "linkedin b2b" --domain channel
-python3 .claude/skills/marketing/scripts/search.py "on-page title tag" --domain seo
+./mkt search "urgency cta"          # search; domain auto-detected
+./mkt search "linkedin" channel     # search one domain (copy|channel|email|seo)
+./mkt brief "TaskFlow" "signups" "SMB founders"   # generate a campaign brief
+./mkt domains                       # list searchable domains
+./mkt help                          # show all commands
 ```
 
-**Generate a campaign brief from a template:**
-```bash
-python3 .claude/skills/marketing/scripts/generate-brief.py --product "TaskFlow" --goal "signups" --audience "SMB founders"
-```
+Tip: make it even shorter with an alias → `alias mkt='./mkt'`, then `mkt search "..."`.
 
 ## Sub-skill Routing
 
@@ -73,12 +75,16 @@ auto-detect from the request (keywords: "headline/copy" → copywriting,
 | `data/email_sequences.csv` | Email sequence blueprints (welcome, nurture, cart, winback) |
 | `data/seo_checklist.csv` | On-page and technical SEO checklist items |
 
-## Scripts
+## CLI (`mkt`)
 
-| Script | Purpose |
-|--------|---------|
-| `scripts/search.py` | Keyword search over the marketing datasets (no dependencies) |
-| `scripts/generate-brief.py` | Generate a campaign brief from `templates/campaign-brief.md` |
+One dependency-free command. Launcher: `./mkt` (repo root) → `mkt.py`.
+
+| Command | Purpose |
+|---------|---------|
+| `mkt search "<query>" [domain]` | Keyword search over the datasets (domain auto-detected if omitted) |
+| `mkt brief "<product>" "<goal>" "<audience>"` | Generate a campaign brief from `templates/campaign-brief.md` |
+| `mkt domains` | List searchable domains (copy, channel, email, seo) |
+| `mkt help` | Show all commands |
 
 ## Templates
 
