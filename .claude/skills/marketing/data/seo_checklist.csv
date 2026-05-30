@@ -1,0 +1,30 @@
+category,item,rule,priority
+on-page,Title tag,Under 60 chars with primary keyword near front and a compelling angle,high
+on-page,Meta description,Under 155 chars with benefit keyword and soft CTA to drive CTR,medium
+on-page,URL slug,Short lowercase hyphenated keyword-rich no stop words,high
+on-page,H1,Exactly one per page containing the primary keyword,high
+on-page,H2 H3 structure,Descriptive subheads with secondary keywords and PAA questions,medium
+on-page,First 100 words,State the answer and include primary keyword naturally,high
+on-page,Keyword targeting,One primary plus 2-4 secondary keywords no stuffing,high
+on-page,Image alt text,Descriptive alt with keyword where relevant,medium
+on-page,Internal links,2-5 links to related pillar and cluster pages with descriptive anchors,high
+on-page,Outbound links,Cite credible authoritative sources,low
+on-page,Content depth,Satisfy search intent better than page-1 competitors,high
+on-page,Readability,Short paragraphs lists subheads scannable above the fold,medium
+technical,Mobile-first,Responsive and usable on mobile,high
+technical,Core Web Vitals,LCP under 2.5s INP under 200ms CLS under 0.1,high
+technical,Page speed,Compress images lazy-load defer non-critical JS,high
+technical,Canonical tag,One canonical URL per content fix duplicate thin pages,medium
+technical,XML sitemap,Submit and keep updated in Search Console,medium
+technical,Robots and indexing,Ensure important pages are crawlable and indexable,high
+technical,Structured data,Article FAQ Product Breadcrumb schema where relevant,medium
+technical,HTTPS,Secure site with valid certificate,high
+technical,Broken links,Fix 404s and redirect chains,medium
+content,Search intent match,Map page type to intent informational vs commercial vs transactional,high
+content,Topic clusters,Pillar page plus cluster posts interlinked,high
+content,E-E-A-T,Show experience expertise author bio and trust signals,medium
+content,Freshness,Review and update content and timestamps regularly,medium
+content,Distribution,Repurpose into email social video and communities,medium
+offsite,Backlinks,Earn links via original data guest posts digital PR,medium
+offsite,Brand search,Grow branded queries via awareness content,low
+offsite,Local SEO,Google Business Profile NAP consistency reviews,medium

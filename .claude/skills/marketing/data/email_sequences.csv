@@ -1,0 +1,13 @@
+sequence,trigger,emails,timing,goal,structure
+Welcome,new subscriber or signup,3-5,day 0/1/3/5,activate and build trust,Deliver value > story/why > best resource > soft offer > direct CTA
+Onboarding,product signup,4-6,day 0/1/3/5/7,activation first value,Welcome > setup step > key feature > tip > use case > check-in
+Nurture,lead magnet download,4-7,every 1-3 days,educate to conversion,Educate > demonstrate > objection > case study > offer
+Abandoned cart,cart not completed,3,1h/24h/48h,recover sale,Reminder > objection handling (shipping/returns/reviews) > incentive
+Browse abandonment,viewed product no add,2,4h/24h,nudge to consideration,Reminder of viewed item > social proof + related
+Post-purchase,order completed,3-4,day 0/3/7/14,retention and reviews,Thank you + receipt > how to get value > ask review > cross-sell
+Win-back,inactive 60-90 days,3,day 0/4/8,re-engage or clean list,We miss you > best-of content > exclusive offer > last-email permission
+Re-engagement,low open over time,2-3,day 0/5,list hygiene,Are you still interested > exclusive value > confirm or sunset
+Launch,waitlist or list,4,pre/launch/mid/last-call,drive launch sales,Teaser > announcement+offer > social proof > deadline last call
+Trial expiry,free trial ending,3,day -3/-1/0,convert to paid,Value recap > what you lose > upgrade offer + incentive
+Newsletter,recurring schedule,ongoing,weekly or biweekly,retention and authority,Intro hook > one core idea > curated links/tips > single CTA
+Upsell cross-sell,active customer,2-3,based on usage,expand revenue,Identify need > relevant upgrade > proof > offer
