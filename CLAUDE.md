@@ -2,6 +2,11 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Language & Tone
+
+- Hablar siempre en español neutro, usando "tú".
+- Nunca usar voseo ni argentinismos (nada de "vos", "decime", "tenés", "preferís", etc.).
+
 ## Project Overview
 
 Antigravity Kit is an AI-powered design intelligence toolkit providing searchable databases of UI styles, color palettes, font pairings, chart types, and UX guidelines. It works as a skill/workflow for AI coding assistants (Claude Code, Windsurf, Cursor, etc.).
