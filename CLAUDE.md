@@ -7,6 +7,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - Hablar siempre en español neutro, usando "tú".
 - Nunca usar voseo ni argentinismos (nada de "vos", "decime", "tenés", "preferís", etc.).
 
+## Contenido OceanIQ
+
+- Para todo guion, Reel, TikTok o video de marca/catering de OceanIQ, seguir el método definido en `OCEANIQ-METODO-CONTENIDO-VIRAL.md` (temas universales, elementos virales, estructura Heras, plantilla de video, guardrails de marca y reglas de idioma).
+
 ## Project Overview
 
 Antigravity Kit is an AI-powered design intelligence toolkit providing searchable databases of UI styles, color palettes, font pairings, chart types, and UX guidelines. It works as a skill/workflow for AI coding assistants (Claude Code, Windsurf, Cursor, etc.).
